@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "[Preview]: Do not allow privileged containers in Kubernetes cluster",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/95edb821-ddaf-4404-9732-666045e056b4",
+  "scope": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/rai-ignite-demo",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Raiyan Alam",
+   "parameterScopes": {},
+   "createdBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "createdOn": "2020-09-01T16:28:39.2705534Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/rai-ignite-demo/providers/Microsoft.Authorization/policyAssignments/5a16ba7f6aaf45c6bf5fdb84",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "5a16ba7f6aaf45c6bf5fdb84"
+}
