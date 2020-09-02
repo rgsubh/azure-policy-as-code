@@ -1,0 +1,26 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "No priviledged containers in Production Environment Kubernetes Cluster",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/95edb821-ddaf-4404-9732-666045e056b4",
+  "scope": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod",
+  "notScopes": [],
+  "parameters": {},
+  "description": "",
+  "metadata": {
+   "assignedBy": "Raiyan Alam",
+   "parameterScopes": {},
+   "createdBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "createdOn": "2020-09-02T07:02:12.892349Z",
+   "updatedBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "updatedOn": "2020-09-02T07:06:47.9617683Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod/providers/Microsoft.Authorization/policyAssignments/405d60e2202a4b92a95dd680",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "405d60e2202a4b92a95dd680"
+}

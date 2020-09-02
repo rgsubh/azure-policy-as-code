@@ -1,0 +1,48 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed resource locations for Production Environment",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+  "scope": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "westus2stage",
+     "westus2",
+     "westusstage",
+     "southcentralusstage",
+     "northcentralusstage",
+     "eastus2stage",
+     "eastus2",
+     "eastusstage",
+     "centralusstage",
+     "centralus",
+     "eastus",
+     "northcentralus",
+     "southcentralus",
+     "westus",
+     "westcentralus"
+    ]
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Raiyan Alam",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod"
+   },
+   "createdBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "createdOn": "2020-09-02T06:57:57.3004299Z",
+   "updatedBy": "0845db2a-7e64-419d-b9f4-aecf1b46b39a",
+   "updatedOn": "2020-09-02T07:12:11.4886764Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/afc11291-9826-46be-b852-70349146ddf8/resourceGroups/ignite-demo-prod/providers/Microsoft.Authorization/policyAssignments/7b93f00fa8904475a7eb4363",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "7b93f00fa8904475a7eb4363"
+}
