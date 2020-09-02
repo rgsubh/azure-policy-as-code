@@ -1,0 +1,24 @@
+on:
+  push:
+    paths:
+      - policies/[Preview]:-Do-not-allow-privileged-containers-in-Kubernetes-cluster_95edb821-ddaf-4404-9732-666045e056b4/**
+      - policies/[Preview]:-Ensure-only-allowed-container-images-in-Kubernetes-cluster_febd0533-8e55-448f-b837-bd0e06f16469/**
+      - .github/workflows/azure-policy-3c79c173.yml
+jobs:
+  apply-azure-policy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Login to Azure
+      uses: azure/login@v1
+      with:
+        creds: ${{secrets.AZURE_CREDENTIALS_3c79c173}}
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Create or Update Azure Policies
+      uses: azure/manage-azure-policy@v0
+      with:
+        paths: |
+          policies/[Preview]:-Do-not-allow-privileged-containers-in-Kubernetes-cluster_95edb821-ddaf-4404-9732-666045e056b4/**
+          policies/[Preview]:-Ensure-only-allowed-container-images-in-Kubernetes-cluster_febd0533-8e55-448f-b837-bd0e06f16469/**
+          
+          
