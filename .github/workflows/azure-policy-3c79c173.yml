@@ -1,3 +1,4 @@
+name: deploy-azure-policy-3c79c173
 on:
   push:
     paths:
