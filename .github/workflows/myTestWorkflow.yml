@@ -1,6 +1,8 @@
 name: my-test-workflow
 on:
   push:
+    branches-ignore: 
+      - master
     paths:
       - policies/Allowed-locations_e56962a6-4747-49cd-b67b-bf8b01975c4c/** 
       - policies/[Preview]:-Do-not-allow-privileged-containers-in-Kubernetes-cluster_95edb821-ddaf-4404-9732-666045e056b4/**
