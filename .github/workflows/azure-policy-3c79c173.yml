@@ -4,7 +4,8 @@ on:
     paths:
       - policies/Allowed-locations_e56962a6-4747-49cd-b67b-bf8b01975c4c/** 
       - policies/[Preview]:-Do-not-allow-privileged-containers-in-Kubernetes-cluster_95edb821-ddaf-4404-9732-666045e056b4/**
-      - policies/[Preview]:-Ensure-only-allowed-container-images-in-Kubernetes-cluster_febd0533-8e55-448f-b837-bd0e06f16469/**     
+      - policies/[Preview]:-Ensure-only-allowed-container-images-in-Kubernetes-cluster_febd0533-8e55-448f-b837-bd0e06f16469/**
+      - policies/test/**      
       - .github/workflows/azure-policy-3c79c173.yml
 jobs:
   apply-azure-policy:
@@ -23,6 +24,7 @@ jobs:
           policies/Allowed-locations_e56962a6-4747-49cd-b67b-bf8b01975c4c/** 
           policies/[Preview]:-Do-not-allow-privileged-containers-in-Kubernetes-cluster_95edb821-ddaf-4404-9732-666045e056b4/**
           policies/[Preview]:-Ensure-only-allowed-container-images-in-Kubernetes-cluster_febd0533-8e55-448f-b837-bd0e06f16469/**
+          policies/test/**
         mode: complete
           
           
