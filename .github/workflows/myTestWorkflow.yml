@@ -1,4 +1,4 @@
-name: deploy-azure-policy-3c79c173
+name: my-test-workflow
 on:
   push:
     paths:
